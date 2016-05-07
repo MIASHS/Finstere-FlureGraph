@@ -62,43 +62,43 @@
             <Label layoutX="800.0" layoutY="84.0" text="Joueur 2 pions :" />
             <Label layoutX="791.0" layoutY="121.0" text="Nombre de coups :" />
             <Label layoutX="20.0" layoutY="104.0" text="Tour numéro :" />
-            <Button layoutX="1011.0" layoutY="142.0" mnemonicParsing="false" text="Fin du tour" />
-            <ImageView layoutX="900.0" layoutY="3.0">
+            <Button fx:id="BtFinTour" layoutX="1011.0" layoutY="142.0" mnemonicParsing="false" text="Fin du tour" />
+            <ImageView fx:id="J1p1" layoutX="900.0" layoutY="3.0">
                <image>
                   <Image url="@../../image/pionred_1_6_clair.gif" />
                </image>
             </ImageView>
-            <ImageView layoutX="947.0" layoutY="3.0">
+            <ImageView fx:id="J1p2" layoutX="947.0" layoutY="3.0">
                <image>
                   <Image url="@../../image/pionred_3_4_clair.gif" />
                </image>
             </ImageView>
-            <ImageView layoutX="995.0" layoutY="3.0">
+            <ImageView fx:id="J1p3" layoutX="995.0" layoutY="3.0">
                <image>
                   <Image url="@../../image/pionred_4_3_clair.gif" />
                </image>
             </ImageView>
-            <ImageView layoutX="1048.0" layoutY="3.0">
+            <ImageView fx:id="J1p4" layoutX="1048.0" layoutY="3.0">
                <image>
                   <Image url="@../../image/pionred_5_2_clair.gif" />
                </image>
             </ImageView>
-            <ImageView layoutX="900.0" layoutY="73.0">
+            <ImageView fx:id="J2p1" layoutX="900.0" layoutY="73.0">
                <image>
                   <Image url="@../../image/pionblue_1_6_clair.gif" />
                </image>
             </ImageView>
-            <ImageView layoutX="947.0" layoutY="73.0">
+            <ImageView fx:id="J2p2" layoutX="947.0" layoutY="73.0">
                <image>
                   <Image url="@../../image/pionblue_3_4_clair.gif" />
                </image>
             </ImageView>
-            <ImageView layoutX="995.0" layoutY="73.0">
+            <ImageView fx:id="J2p3" layoutX="995.0" layoutY="73.0">
                <image>
                   <Image url="@../../image/pionblue_4_3_clair.gif" />
                </image>
             </ImageView>
-            <ImageView layoutX="1048.0" layoutY="73.0">
+            <ImageView fx:id="J2p4" layoutX="1048.0" layoutY="73.0">
                <image>
                   <Image url="@../../image/pionblue_5_2_clair.gif" />
                </image>
@@ -107,9 +107,9 @@
             <Label layoutX="32.0" layoutY="159.0" text="Pioche :  " />
             <Label layoutX="29.0" layoutY="183.0" text="Défausse :" />
             <Label layoutX="15.0" layoutY="266.0" text="Liste des pions mort :" />
-            <TextArea layoutX="820.0" layoutY="316.0" prefHeight="87.0" prefWidth="204.0" />
-            <TextField layoutX="818.0" layoutY="422.0" prefHeight="25.0" prefWidth="204.0" />
-            <Button layoutX="1022.0" layoutY="455.0" mnemonicParsing="false" text="Envoyer" />
+            <TextArea fx:id="Zchat" layoutX="820.0" layoutY="316.0" prefHeight="87.0" prefWidth="204.0" />
+            <TextField fx:id="ecritChat" layoutX="818.0" layoutY="422.0" prefHeight="25.0" prefWidth="204.0" />
+            <Button fx:id="btChat" layoutX="1022.0" layoutY="455.0" mnemonicParsing="false" text="Envoyer" />
             <Label layoutX="818.0" layoutY="283.0" text="Chat :" />
             <ImageView layoutX="9.0" layoutY="10.0">
                <image>
@@ -118,23 +118,23 @@
             </ImageView>
             <Label layoutX="18.0" layoutY="303.0" text="Joueur 1" />
             <Label layoutX="22.0" layoutY="395.0" text="Joueur 2" />
-            <Label layoutX="15.0" layoutY="330.0" prefHeight="17.0" prefWidth="30.0" text="Label" />
-            <Label layoutX="57.0" layoutY="330.0" text="Label" />
-            <Label layoutX="107.0" layoutY="330.0" text="Label" />
-            <Label layoutX="15.0" layoutY="360.0" text="Label" />
-            <Label layoutX="18.0" layoutY="422.0" text="Label" />
-            <Label layoutX="66.0" layoutY="422.0" text="Label" />
-            <Label layoutX="107.0" layoutY="422.0" text="Label" />
-            <Label layoutX="15.0" layoutY="455.0" text="Label" />
+            <Label fx:id="J1mp1" layoutX="15.0" layoutY="330.0" prefHeight="17.0" prefWidth="30.0" text="Label" />
+            <Label fx:id="J1mp2" layoutX="57.0" layoutY="330.0" text="Label" />
+            <Label fx:id="J1mp3" layoutX="107.0" layoutY="330.0" text="Label" />
+            <Label fx:id="J1mp4" layoutX="15.0" layoutY="360.0" text="Label" />
+            <Label fx:id="J2mp1" layoutX="18.0" layoutY="422.0" text="Label" />
+            <Label fx:id="J2mp2" layoutX="66.0" layoutY="422.0" text="Label" />
+            <Label fx:id="J2mp3" layoutX="107.0" layoutY="422.0" text="Label" />
+            <Label fx:id="J2mp4" layoutX="15.0" layoutY="455.0" text="Label" />
             <Label layoutX="18.0" layoutY="208.0" text="Etat de la partie :" />
             <Label layoutX="32.0" layoutY="230.0" text="Label" />
             <Label layoutX="18.0" layoutY="84.0" text="Manche numéro : " />
-            <Label layoutX="121.0" layoutY="84.0" text="Label" />
-            <Label layoutX="100.0" layoutY="104.0" text="Label" />
-            <Label layoutX="86.0" layoutY="159.0" text="Label" />
-            <Label layoutX="86.0" layoutY="183.0" text="Label" />
-            <Label layoutX="900.0" layoutY="48.0" text="Label" />
-            <Label layoutX="900.0" layoutY="121.0" text="Label" />
+            <Label fx:id="numMan" layoutX="121.0" layoutY="84.0" text="Label" />
+            <Label fx:id="numTour" layoutX="100.0" layoutY="104.0" text="Label" />
+            <Label fx:id="pioche" layoutX="86.0" layoutY="159.0" text="Label" />
+            <Label fx:id="defausse" layoutX="86.0" layoutY="183.0" text="Label" />
+            <Label fx:id="NbCoupsJ1" layoutX="900.0" layoutY="48.0" text="Label" />
+            <Label fx:id="NbCoupsJ2" layoutX="900.0" layoutY="121.0" text="Label" />
             <Label fx:id="lm1" layoutX="228.0" layoutY="23.0" prefHeight="36.0" prefWidth="30.0" />
             <Label fx:id="lm2" layoutX="266.0" layoutY="23.0" prefHeight="36.0" prefWidth="30.0" />
             <Label fx:id="lm3" layoutX="296.0" layoutY="24.0" prefHeight="36.0" prefWidth="30.0" />
