@@ -7,11 +7,11 @@
 <?import javafx.scene.control.*?>
 <?import javafx.scene.layout.*?>
 
-<AnchorPane id="AnchorPane" prefHeight="275.0" prefWidth="435.0" xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/8" fx:controller="javafxtest.FXMLDocumentController">
+<AnchorPane id="AnchorPane" prefHeight="275.0" prefWidth="435.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="javafxtest.FXMLDocumentController">
    <children>
-      <Pane prefHeight="275.0" prefWidth="435.0">
+      <Pane disable="true" prefHeight="275.0" prefWidth="435.0">
          <children>
-            <Button layoutX="184.0" layoutY="201.0" mnemonicParsing="false" text="Continuer" />
+            <Button layoutX="184.0" layoutY="201.0" mnemonicParsing="false" onMouseClicked="#handleButtonAction" text="Continuer" />
             <Label layoutX="103.0" layoutY="23.0" prefHeight="38.0" prefWidth="230.0" text="Finstere Flure">
                <font>
                   <Font name="Bookshelf Symbol 7" size="36.0" />
@@ -34,6 +34,19 @@
             </Label>
             <TextField layoutX="50.0" layoutY="119.0" text="nom-J1" />
             <TextField layoutX="242.0" layoutY="119.0" text="nom-J2" />
+         </children>
+      </Pane>
+      <Pane layoutX="-533.0" layoutY="92.0" prefHeight="266.0" prefWidth="435.0">
+         <children>
+            <Label layoutX="109.0" layoutY="23.0" text="Finstere Flure">
+               <font>
+                  <Font name="Bookshelf Symbol 7" size="36.0" />
+               </font>
+            </Label>
+            <TextField layoutX="35.0" layoutY="108.0" promptText="Nom joueur" text="Nom joueur" />
+            <Label layoutX="69.0" layoutY="77.0" text="Nom du joueur" />
+            <Button layoutX="176.0" layoutY="174.0" mnemonicParsing="false" text="Lancer le jeu" />
+            <Label layoutX="290.0" layoutY="77.0" text="Joueur 2" />
          </children>
       </Pane>
    </children>
