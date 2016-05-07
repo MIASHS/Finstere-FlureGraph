@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane id="AnchorPane" prefHeight="275.0" prefWidth="435.0" xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/8" fx:controller="javafxtest.FXMLDocumentController">
+   <children>
+      <Pane prefHeight="275.0" prefWidth="435.0">
+         <children>
+            <Button layoutX="184.0" layoutY="201.0" mnemonicParsing="false" text="Continuer" />
+            <Label layoutX="103.0" layoutY="23.0" prefHeight="38.0" prefWidth="230.0" text="Finstere Flure">
+               <font>
+                  <Font name="Bookshelf Symbol 7" size="36.0" />
+               </font>
+            </Label>
+            <RadioButton layoutX="166.0" layoutY="129.0" mnemonicParsing="false" text="Jeu en solo" />
+            <RadioButton layoutX="166.0" layoutY="160.0" mnemonicParsing="false" text="Jeu avec 2 joueurs" />
+            <Label layoutX="154.0" layoutY="87.0" text="Selection du type de jeu:" />
+         </children>
+      </Pane>
+      <Pane disable="true" layoutX="-346.0" layoutY="-294.0" prefHeight="275.0" prefWidth="435.0">
+         <children>
+            <Button layoutX="162.0" layoutY="186.0" mnemonicParsing="false" onMouseClicked="#handleButtonAction" text="Lancement du jeu" />
+            <Label layoutX="86.0" layoutY="78.0" prefHeight="25.0" prefWidth="76.0" text="Nom joueur 1" />
+            <Label layoutX="279.0" layoutY="82.0" text="Nom joueur 2" />
+            <Label layoutX="112.0" layoutY="23.0" prefHeight="36.0" prefWidth="204.0" text="Finstere Flure">
+               <font>
+                  <Font name="Bookshelf Symbol 7" size="33.0" />
+               </font>
+            </Label>
+            <TextField layoutX="50.0" layoutY="119.0" text="nom-J1" />
+            <TextField layoutX="242.0" layoutY="119.0" text="nom-J2" />
+         </children>
+      </Pane>
+   </children>
+</AnchorPane>
