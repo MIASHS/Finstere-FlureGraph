@@ -8,7 +8,7 @@
 <?import javafx.scene.control.*?>
 <?import javafx.scene.layout.*?>
 
-<AnchorPane id="AnchorPane" prefHeight="275.0" prefWidth="435.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="javafxtest.FXMLDocumentController">
+<AnchorPane id="AnchorPane" prefHeight="500.0" prefWidth="1111.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="javafxtest.FXMLDocumentController">
    <children>
       <Pane disable="true" layoutX="121.0" layoutY="-294.0" prefHeight="275.0" prefWidth="435.0">
          <children>
@@ -50,64 +50,73 @@
             <Label layoutX="290.0" layoutY="77.0" text="Joueur 2" />
          </children>
       </Pane>
-      <Pane layoutX="-6.0" prefHeight="455.0" prefWidth="755.0">
+      <Pane layoutX="1.0" layoutY="3.0" prefHeight="494.0" prefWidth="1111.0">
          <children>
-            <ImageView fitHeight="388.0" fitWidth="551.0" layoutX="14.0" layoutY="8.0">
+            <ImageView fitHeight="470.0" fitWidth="605.0" layoutX="170.0" layoutY="3.0">
                <image>
                   <Image url="@../../image/fns_plateau.jpg" />
                </image>
             </ImageView>
-            <Label layoutX="579.0" layoutY="14.0" text="Joueur 1:" />
-            <Label layoutX="579.0" layoutY="41.0" text="Nombre coups:" />
-            <Label layoutX="675.0" layoutY="41.0" />
-            <Label layoutX="579.0" layoutY="75.0" text="Joueur 2:" />
-            <Label layoutX="579.0" layoutY="99.0" text="Nombre de coups:" />
-            <Label layoutX="685.0" layoutY="99.0" />
-            <Label layoutX="579.0" layoutY="136.0" text="Tour numéro :" />
-            <Button layoutX="639.0" layoutY="416.0" mnemonicParsing="false" text="Fin du tour" />
-            <Label layoutX="578.0" layoutY="171.0" text="Pions joueur 1" />
-            <ImageView layoutX="583.0" layoutY="196.0">
+            <Label layoutX="800.0" layoutY="14.0" text="Joueur 1 pions :" />
+            <Label layoutX="791.0" layoutY="48.0" text="Nombre de coups :" />
+            <Label layoutX="800.0" layoutY="84.0" text="Joueur 2 pions :" />
+            <Label layoutX="791.0" layoutY="121.0" text="Nombre de coups :" />
+            <Label layoutX="19.0" layoutY="84.0" text="Tour numéro :" />
+            <Button layoutX="1011.0" layoutY="142.0" mnemonicParsing="false" text="Fin du tour" />
+            <ImageView layoutX="900.0" layoutY="3.0">
                <image>
                   <Image url="@../../image/pionred_1_6_clair.gif" />
                </image>
             </ImageView>
-            <ImageView layoutX="627.0" layoutY="196.0">
+            <ImageView layoutX="947.0" layoutY="3.0">
                <image>
                   <Image url="@../../image/pionred_3_4_clair.gif" />
                </image>
             </ImageView>
-            <ImageView layoutX="673.0" layoutY="196.0">
+            <ImageView layoutX="995.0" layoutY="3.0">
                <image>
                   <Image url="@../../image/pionred_4_3_clair.gif" />
                </image>
             </ImageView>
-            <ImageView layoutX="583.0" layoutY="243.0">
+            <ImageView layoutX="1048.0" layoutY="3.0">
                <image>
                   <Image url="@../../image/pionred_5_2_clair.gif" />
                </image>
             </ImageView>
-            <Label layoutX="659.0" layoutY="136.0" text="Label" />
-            <Label layoutX="578.0" layoutY="292.0" text="Pions Joueurs 2" />
-            <ImageView layoutX="583.0" layoutY="315.0">
+            <ImageView layoutX="900.0" layoutY="73.0">
                <image>
                   <Image url="@../../image/pionblue_1_6_clair.gif" />
                </image>
             </ImageView>
-            <ImageView layoutX="627.0" layoutY="315.0">
+            <ImageView layoutX="947.0" layoutY="73.0">
                <image>
                   <Image url="@../../image/pionblue_3_4_clair.gif" />
                </image>
             </ImageView>
-            <ImageView layoutX="673.0" layoutY="315.0">
+            <ImageView layoutX="995.0" layoutY="73.0">
                <image>
                   <Image url="@../../image/pionblue_4_3_clair.gif" />
                </image>
             </ImageView>
-            <ImageView layoutX="583.0" layoutY="363.0">
+            <ImageView layoutX="1048.0" layoutY="73.0">
                <image>
                   <Image url="@../../image/pionblue_5_2_clair.gif" />
                </image>
             </ImageView>
+            <Label layoutX="20.0" layoutY="121.0" text="Info monstre :" />
+            <Label layoutX="20.0" layoutY="146.0" text="Pioche :  " />
+            <Label layoutX="17.0" layoutY="171.0" text="Défausse :" />
+            <Label layoutX="15.0" layoutY="266.0" text="Liste des pions mort :" />
+            <TextArea layoutX="820.0" layoutY="203.0" prefHeight="200.0" prefWidth="200.0" />
+            <TextField layoutX="818.0" layoutY="422.0" prefHeight="25.0" prefWidth="204.0" />
+            <Button layoutX="1022.0" layoutY="455.0" mnemonicParsing="false" text="Envoyer" />
+            <Label layoutX="818.0" layoutY="171.0" text="Chat :" />
+            <ImageView layoutX="9.0" layoutY="10.0">
+               <image>
+                  <Image url="@../../image/finstere_flure.jpg" />
+               </image>
+            </ImageView>
+            <TextArea layoutX="14.0" layoutY="283.0" prefHeight="167.0" prefWidth="149.0" />
          </children>
       </Pane>
    </children>
