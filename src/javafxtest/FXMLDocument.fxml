@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
+<?import javafx.scene.image.*?>
 <?import javafx.scene.text.*?>
 <?import java.lang.*?>
 <?import java.util.*?>
@@ -9,7 +10,7 @@
 
 <AnchorPane id="AnchorPane" prefHeight="275.0" prefWidth="435.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="javafxtest.FXMLDocumentController">
    <children>
-      <Pane disable="true" prefHeight="275.0" prefWidth="435.0">
+      <Pane disable="true" layoutX="121.0" layoutY="-294.0" prefHeight="275.0" prefWidth="435.0">
          <children>
             <Button layoutX="184.0" layoutY="201.0" mnemonicParsing="false" onMouseClicked="#handleButtonAction" text="Continuer" />
             <Label layoutX="103.0" layoutY="23.0" prefHeight="38.0" prefWidth="230.0" text="Finstere Flure">
@@ -47,6 +48,15 @@
             <Label layoutX="69.0" layoutY="77.0" text="Nom du joueur" />
             <Button layoutX="176.0" layoutY="174.0" mnemonicParsing="false" text="Lancer le jeu" />
             <Label layoutX="290.0" layoutY="77.0" text="Joueur 2" />
+         </children>
+      </Pane>
+      <Pane prefHeight="404.0" prefWidth="689.0">
+         <children>
+            <ImageView fitHeight="388.0" fitWidth="551.0" layoutX="14.0" layoutY="8.0">
+               <image>
+                  <Image url="@../../image/fns_plateau.jpg" />
+               </image>
+            </ImageView>
          </children>
       </Pane>
    </children>
