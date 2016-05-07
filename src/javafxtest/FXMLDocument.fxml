@@ -61,7 +61,7 @@
             <Label layoutX="791.0" layoutY="48.0" text="Nombre de coups :" />
             <Label layoutX="800.0" layoutY="84.0" text="Joueur 2 pions :" />
             <Label layoutX="791.0" layoutY="121.0" text="Nombre de coups :" />
-            <Label layoutX="19.0" layoutY="84.0" text="Tour numéro :" />
+            <Label layoutX="20.0" layoutY="104.0" text="Tour numéro :" />
             <Button layoutX="1011.0" layoutY="142.0" mnemonicParsing="false" text="Fin du tour" />
             <ImageView layoutX="900.0" layoutY="3.0">
                <image>
@@ -103,20 +103,38 @@
                   <Image url="@../../image/pionblue_5_2_clair.gif" />
                </image>
             </ImageView>
-            <Label layoutX="20.0" layoutY="121.0" text="Info monstre :" />
-            <Label layoutX="32.0" layoutY="146.0" text="Pioche :  " />
-            <Label layoutX="29.0" layoutY="171.0" text="Défausse :" />
+            <Label layoutX="23.0" layoutY="134.0" text="Info monstre :" />
+            <Label layoutX="32.0" layoutY="159.0" text="Pioche :  " />
+            <Label layoutX="29.0" layoutY="183.0" text="Défausse :" />
             <Label layoutX="15.0" layoutY="266.0" text="Liste des pions mort :" />
-            <TextArea layoutX="820.0" layoutY="203.0" prefHeight="200.0" prefWidth="200.0" />
+            <TextArea layoutX="820.0" layoutY="316.0" prefHeight="87.0" prefWidth="204.0" />
             <TextField layoutX="818.0" layoutY="422.0" prefHeight="25.0" prefWidth="204.0" />
             <Button layoutX="1022.0" layoutY="455.0" mnemonicParsing="false" text="Envoyer" />
-            <Label layoutX="818.0" layoutY="171.0" text="Chat :" />
+            <Label layoutX="818.0" layoutY="283.0" text="Chat :" />
             <ImageView layoutX="9.0" layoutY="10.0">
                <image>
                   <Image url="@../../image/finstere_flure.jpg" />
                </image>
             </ImageView>
-            <TextArea layoutX="14.0" layoutY="283.0" prefHeight="167.0" prefWidth="149.0" />
+            <Label layoutX="18.0" layoutY="303.0" text="Joueur 1" />
+            <Label layoutX="22.0" layoutY="395.0" text="Joueur 2" />
+            <Label layoutX="15.0" layoutY="330.0" prefHeight="17.0" prefWidth="30.0" text="Label" />
+            <Label layoutX="57.0" layoutY="330.0" text="Label" />
+            <Label layoutX="107.0" layoutY="330.0" text="Label" />
+            <Label layoutX="15.0" layoutY="360.0" text="Label" />
+            <Label layoutX="18.0" layoutY="422.0" text="Label" />
+            <Label layoutX="66.0" layoutY="422.0" text="Label" />
+            <Label layoutX="107.0" layoutY="422.0" text="Label" />
+            <Label layoutX="15.0" layoutY="455.0" text="Label" />
+            <Label layoutX="18.0" layoutY="208.0" text="Etat de la partie :" />
+            <Label layoutX="32.0" layoutY="230.0" text="Label" />
+            <Label layoutX="18.0" layoutY="84.0" text="Manche numéro : " />
+            <Label layoutX="121.0" layoutY="84.0" text="Label" />
+            <Label layoutX="100.0" layoutY="104.0" text="Label" />
+            <Label layoutX="86.0" layoutY="159.0" text="Label" />
+            <Label layoutX="86.0" layoutY="183.0" text="Label" />
+            <Label layoutX="900.0" layoutY="48.0" text="Label" />
+            <Label layoutX="900.0" layoutY="121.0" text="Label" />
          </children>
       </Pane>
    </children>
