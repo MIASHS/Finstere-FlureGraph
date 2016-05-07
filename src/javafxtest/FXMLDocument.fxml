@@ -50,11 +50,62 @@
             <Label layoutX="290.0" layoutY="77.0" text="Joueur 2" />
          </children>
       </Pane>
-      <Pane prefHeight="404.0" prefWidth="689.0">
+      <Pane layoutX="-6.0" prefHeight="455.0" prefWidth="755.0">
          <children>
             <ImageView fitHeight="388.0" fitWidth="551.0" layoutX="14.0" layoutY="8.0">
                <image>
                   <Image url="@../../image/fns_plateau.jpg" />
+               </image>
+            </ImageView>
+            <Label layoutX="579.0" layoutY="14.0" text="Joueur 1:" />
+            <Label layoutX="579.0" layoutY="41.0" text="Nombre coups:" />
+            <Label layoutX="675.0" layoutY="41.0" />
+            <Label layoutX="579.0" layoutY="75.0" text="Joueur 2:" />
+            <Label layoutX="579.0" layoutY="99.0" text="Nombre de coups:" />
+            <Label layoutX="685.0" layoutY="99.0" />
+            <Label layoutX="579.0" layoutY="136.0" text="Tour numéro :" />
+            <Button layoutX="639.0" layoutY="416.0" mnemonicParsing="false" text="Fin du tour" />
+            <Label layoutX="578.0" layoutY="171.0" text="Pions joueur 1" />
+            <ImageView layoutX="583.0" layoutY="196.0">
+               <image>
+                  <Image url="@../../image/pionred_1_6_clair.gif" />
+               </image>
+            </ImageView>
+            <ImageView layoutX="627.0" layoutY="196.0">
+               <image>
+                  <Image url="@../../image/pionred_3_4_clair.gif" />
+               </image>
+            </ImageView>
+            <ImageView layoutX="673.0" layoutY="196.0">
+               <image>
+                  <Image url="@../../image/pionred_4_3_clair.gif" />
+               </image>
+            </ImageView>
+            <ImageView layoutX="583.0" layoutY="243.0">
+               <image>
+                  <Image url="@../../image/pionred_5_2_clair.gif" />
+               </image>
+            </ImageView>
+            <Label layoutX="659.0" layoutY="136.0" text="Label" />
+            <Label layoutX="578.0" layoutY="292.0" text="Pions Joueurs 2" />
+            <ImageView layoutX="583.0" layoutY="315.0">
+               <image>
+                  <Image url="@../../image/pionblue_1_6_clair.gif" />
+               </image>
+            </ImageView>
+            <ImageView layoutX="627.0" layoutY="315.0">
+               <image>
+                  <Image url="@../../image/pionblue_3_4_clair.gif" />
+               </image>
+            </ImageView>
+            <ImageView layoutX="673.0" layoutY="315.0">
+               <image>
+                  <Image url="@../../image/pionblue_4_3_clair.gif" />
+               </image>
+            </ImageView>
+            <ImageView layoutX="583.0" layoutY="363.0">
+               <image>
+                  <Image url="@../../image/pionblue_5_2_clair.gif" />
                </image>
             </ImageView>
          </children>
