@@ -11,7 +11,8 @@ import java.util.ResourceBundle;
 import javafx.event.ActionEvent;
 import javafx.fxml.FXML;
 import javafx.fxml.Initializable;
-import javafxtest.JavaFXtest;
+import javafx.scene.control.Label;
+import javafxtest.Main;
 
 /**
  * FXML Controller class
@@ -23,7 +24,20 @@ public class FXMLLancementController implements Initializable {
     /**
      * Initializes the controller class.
      */
-    private JavaFXtest main;
+    private Main main;
+    
+    
+    @FXML
+    private void goSelectionJ (){
+        System.out.println("j'aime putain");
+       
+    }
+
+    @FXML
+    private void bttest (ActionEvent event){
+        System.out.println("j'aime putain");
+       
+    }
     
     
     @Override
@@ -31,15 +45,12 @@ public class FXMLLancementController implements Initializable {
         // TODO
     }    
     
-    private void bttest (ActionEvent event){
-        System.out.println("j'aime putain");
-    }
-    
+
     
     
    // @FXML 
 //    private void goPageSelectNbJoueur() throws IOException{
-  //      JavaFXtest.showPageSelectNbJoueur();
+  //      Main.showPageSelectNbJoueur();
     
   //  }
 }
